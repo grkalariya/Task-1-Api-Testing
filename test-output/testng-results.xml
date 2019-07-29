@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5047" started-at="2019-07-29T12:19:52Z" finished-at="2019-07-29T12:19:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5047" started-at="2019-07-29T12:19:52Z" finished-at="2019-07-29T12:19:57Z">
+      <class name="restAssuredServiceApiTests.Delete_Services_Api_Tests">
+        <test-method status="PASS" signature="firstCreateNewService()[pri:0, instance:restAssuredServiceApiTests.Delete_Services_Api_Tests@4667ae56]" name="firstCreateNewService" is-config="true" duration-ms="373" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCreateNewService -->
+        <test-method status="PASS" signature="testDeleteServiceApi()[pri:0, instance:restAssuredServiceApiTests.Delete_Services_Api_Tests@4667ae56]" name="testDeleteServiceApi" duration-ms="57" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteServiceApi -->
+      </class> <!-- restAssuredServiceApiTests.Delete_Services_Api_Tests -->
+      <class name="restAssuredServiceApiTests.Get_Service_With_Id_Api_Tests">
+        <test-method status="PASS" signature="testGetServiceWithIdApi()[pri:0, instance:restAssuredServiceApiTests.Get_Service_With_Id_Api_Tests@1a968a59]" name="testGetServiceWithIdApi" duration-ms="2271" started-at="2019-07-29T12:19:52Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServiceWithIdApi -->
+      </class> <!-- restAssuredServiceApiTests.Get_Service_With_Id_Api_Tests -->
+      <class name="restAssuredProductApiTests.Post_Products_Api_Tests">
+        <test-method status="PASS" signature="testPostProductDataApi()[pri:0, instance:restAssuredProductApiTests.Post_Products_Api_Tests@77cd7a0]" name="testPostProductDataApi" duration-ms="172" started-at="2019-07-29T12:19:56Z" finished-at="2019-07-29T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostProductDataApi -->
+        <test-method status="PASS" signature="postdata()[pri:0, instance:restAssuredProductApiTests.Post_Products_Api_Tests@77cd7a0]" name="postdata" is-config="true" duration-ms="0" started-at="2019-07-29T12:19:56Z" finished-at="2019-07-29T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postdata -->
+      </class> <!-- restAssuredProductApiTests.Post_Products_Api_Tests -->
+      <class name="restAssuredServiceApiTests.Get_Services_Api_Tests">
+        <test-method status="PASS" signature="testGetServicesList()[pri:0, instance:restAssuredServiceApiTests.Get_Services_Api_Tests@204f30ec]" name="testGetServicesList" duration-ms="92" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServicesList -->
+        <test-method status="PASS" signature="prepareData()[pri:0, instance:restAssuredServiceApiTests.Get_Services_Api_Tests@204f30ec]" name="prepareData" is-config="true" duration-ms="0" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareData -->
+        <test-method status="PASS" signature="testGetServicesListWithLimit()[pri:0, instance:restAssuredServiceApiTests.Get_Services_Api_Tests@204f30ec]" name="testGetServicesListWithLimit" duration-ms="84" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServicesListWithLimit -->
+        <test-method status="PASS" signature="testGetServicesListWithLimitAndSkip()[pri:0, instance:restAssuredServiceApiTests.Get_Services_Api_Tests@204f30ec]" name="testGetServicesListWithLimitAndSkip" duration-ms="63" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServicesListWithLimitAndSkip -->
+        <test-method status="PASS" signature="testGetServicesListWithSkip()[pri:0, instance:restAssuredServiceApiTests.Get_Services_Api_Tests@204f30ec]" name="testGetServicesListWithSkip" duration-ms="30" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServicesListWithSkip -->
+      </class> <!-- restAssuredServiceApiTests.Get_Services_Api_Tests -->
+      <class name="restAssuredServiceApiTests.Patch_Service_With_Id_Api_Tests">
+        <test-method status="PASS" signature="testUpdateServicesWithIdApi()[pri:0, instance:restAssuredServiceApiTests.Patch_Service_With_Id_Api_Tests@e25b2fe]" name="testUpdateServicesWithIdApi" duration-ms="74" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateServicesWithIdApi -->
+        <test-method status="PASS" signature="postdata()[pri:0, instance:restAssuredServiceApiTests.Patch_Service_With_Id_Api_Tests@e25b2fe]" name="postdata" is-config="true" duration-ms="0" started-at="2019-07-29T12:19:55Z" finished-at="2019-07-29T12:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postdata -->
+      </class> <!-- restAssuredServiceApiTests.Patch_Service_With_Id_Api_Tests -->
+      <class name="restAssuredProductApiTests.Patch_Product_With_Id_Api_Tests">
+        <test-method status="PASS" signature="postdata()[pri:0, instance:restAssuredProductApiTests.Patch_Product_With_Id_Api_Tests@754ba872]" name="postdata" is-config="true" duration-ms="0" started-at="2019-07-29T12:19:56Z" finished-at="2019-07-29T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postdata -->
+        <test-method status="PASS" signature="testUpdateProductWithIdApi()[pri:0, instance:restAssuredProductApiTests.Patch_Product_With_Id_Api_Tests@754ba872]" name="testUpdateProductWithIdApi" duration-ms="63" started-at="2019-07-29T12:19:56Z" finished-at="2019-07-29T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateProductWithIdApi -->
+      </class> <!-- restAssuredProductApiTests.Patch_Product_With_Id_Api_Tests -->
+      <class name="restAssuredProductApiTests.Get_Products_Api_Tests">
+        <test-method status="PASS" signature="prepareData()[pri:0, instance:restAssuredProductApiTests.Get_Products_Api_Tests@4dfa3a9d]" name="prepareData" is-config="true" duration-ms="1" started-at="2019-07-29T12:19:56Z" finished-at="2019-07-29T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareData -->
+        <test-method status="PASS" signature="testGetProductsList()[pri:0, instance:restAssuredProductApiTests.Get_Products_Api_Tests@4dfa3a9d]" name="testGetProductsList" duration-ms="577" started-at="2019-07-29T12:19:56Z" finished-at="2019-07-29T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductsList -->
+        <test-method status="PASS" signature="testGetProductsListWithLimit()[pri:0, instance:restAssuredProductApiTests.Get_Products_Api_Tests@4dfa3a9d]" name="testGetProductsListWithLimit" duration-ms="296" started-at="2019-07-29T12:19:56Z" finished-at="2019-07-29T12:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductsListWithLimit -->
+        <test-method status="PASS" signature="testGetProductsListWithLimitAndSkip()[pri:0, instance:restAssuredProductApiTests.Get_Products_Api_Tests@4dfa3a9d]" name="testGetProductsListWithLimitAndSkip" duration-ms="316" started-at="2019-07-29T12:19:57Z" finished-at="2019-07-29T12:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductsListWithLimitAndSkip -->
+        <test-method status="PASS" signature="testGetProductsListWithSkip()[pri:0, instance:restAssuredProductApiTests.Get_Products_Api_Tests@4dfa3a9d]" name="testGetProductsListWithSkip" duration-ms="293" started-at="2019-07-29T12:19:57Z" finished-at="2019-07-29T12:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductsListWithSkip -->
+      </class> <!-- restAssuredProductApiTests.Get_Products_Api_Tests -->
+      <class name="restAssuredProductApiTests.Get_Product_With_Id_Api_Tests">
+        <test-method status="PASS" signature="testGetProductWithIdApi()[pri:0, instance:restAssuredProductApiTests.Get_Product_With_Id_Api_Tests@146ba0ac]" name="testGetProductWithIdApi" duration-ms="46" started-at="2019-07-29T12:19:56Z" finished-at="2019-07-29T12:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductWithIdApi -->
+      </class> <!-- restAssuredProductApiTests.Get_Product_With_Id_Api_Tests -->
+      <class name="restAssuredProductApiTests.Delete_Products_Api_Tests">
+        <test-method status="PASS" signature="firstCreateNewProduct()[pri:0, instance:restAssuredProductApiTests.Delete_Products_Api_Tests@6eebc39e]" name="firstCreateNewProduct" is-config="true" duration-ms="71" started-at="2019-07-29T12:19:57Z" finished-at="2019-07-29T12:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCreateNewProduct -->
+        <test-method status="PASS" signature="testDeleteProductApi()[pri:0, instance:restAssuredProductApiTests.Delete_Products_Api_Tests@6eebc39e]" name="testDeleteProductApi" duration-ms="36" started-at="2019-07-29T12:19:57Z" finished-at="2019-07-29T12:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProductApi -->
+      </class> <!-- restAssuredProductApiTests.Delete_Products_Api_Tests -->
+      <class name="restAssuredServiceApiTests.Post_Services_Api_Tests">
+        <test-method status="PASS" signature="postdata()[pri:0, instance:restAssuredServiceApiTests.Post_Services_Api_Tests@464bee09]" name="postdata" is-config="true" duration-ms="0" started-at="2019-07-29T12:19:57Z" finished-at="2019-07-29T12:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postdata -->
+        <test-method status="PASS" signature="testPostServiceDataApi()[pri:0, instance:restAssuredServiceApiTests.Post_Services_Api_Tests@464bee09]" name="testPostServiceDataApi" duration-ms="46" started-at="2019-07-29T12:19:57Z" finished-at="2019-07-29T12:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostServiceDataApi -->
+      </class> <!-- restAssuredServiceApiTests.Post_Services_Api_Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

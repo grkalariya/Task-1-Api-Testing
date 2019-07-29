@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="restAssuredCategoryApiTests.Patch_Category_With_Id_Api_Tests">
+        <methods>
+          <include name="postdata"/>
+          <include name="testUpdateCategoryWithIdApi"/>
+        </methods>
+      </class> <!-- restAssuredCategoryApiTests.Patch_Category_With_Id_Api_Tests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
